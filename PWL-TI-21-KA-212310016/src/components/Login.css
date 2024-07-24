@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    background-color: #1c1c1c; /* Dark background color */
+  }
+  
+  .login-form {
+    background: #333; /* Dark form background color */
+    justify-content: center;
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #e0e0e0; /* Light text color */
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    justify-content: center;
+    color: #ffffff; /* White title color */
+  }
+  
+  .input-group {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: #b0b0b0; /* Light grey label color */
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    border: 1px solid #555; /* Darker input border color */
+    border-radius: 5px;
+    background-color: #444; /* Darker input background color */
+    color: #e0e0e0; /* Light input text color */
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    background: #007bff; /* Button color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3; /* Darker button hover color */
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,123 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif; /* Font similar to NYT */
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark text color */
+}
+
+.homepage-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navigation bar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff; /* White navbar background */
+  border-bottom: 1px solid #e0e0e0; /* Light grey border */
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.navbar-title {
+  text-decoration: none;
+  color: #333; /* Dark text color */
+}
+
+.navbar-links  {
+  display: flex;
+}
+
+.navbar-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1a0dab; /* NYT-like link color */
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #1253a4; /* Darker link hover color */
+}
+
+/* HomePage styles */
+.homepage-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.main-content {
+  max-width: 60%;
+}
+
+.main-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main-description {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.main-button {
+  background-color: #1a0dab;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-button:hover {
+  background-color: #1253a4;
+}
+
+/* Articles section */
+.articles-section {
+  width: 40%;
+}
+
+.article {
+  margin-bottom: 30px;
+}
+
+.article h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.article p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.article a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar image */
+.sidebar {
+  max-width: 500px;
+}
+
+.sidebar-image {
+  width: 100%;
+  height: auto;
+}
